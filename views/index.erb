@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title> Weather App </title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body background="http://www.imrenozturk.com/website/wallpaper-beach-resolution-high-nature-beaches-140624.jpg">
+  <div id="now" class="weather">
+    <img src=<%= @picture[0]  %>>
+    <h2><%= @print[0] %></h2>
+  </div>  
+  <div id="forecast" class="weather">
+    <img src=<%= @picture[1]  %>>
+  <h2><%= @print[1] %></h2>
+  </div>  
+
+  <div id="tonight" class="weather">
+    <img src=<%= @picture[2]  %>>
+  <h2><%= @print[2] %></h2>
+  </div> 
+  
+
+</body>
+</html>

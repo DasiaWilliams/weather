@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+
+#slides img {
+  width: 15% !important;
+}
+.weather{
+  display: inline-block;
+  margin: 30px;
+  margin-top: 200px;
+  background: rgba(255,0,0,0.4);
+  margin-right: 50px;
+}
+
+h2{
+  color: #FF3399;
+  font-family: 'Changa One', cursive;
+  font-size: 60px;
+}
+ body{
+  text-align: center;
+ }
